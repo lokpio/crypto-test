@@ -1,0 +1,28 @@
+{
+  "name": "crypto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokpio/crypto-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokpio/crypto-test/issues"
+  },
+  "homepage": "https://github.com/lokpio/crypto-test#readme",
+  "dependencies": {
+    "@types/inquirer": "^6.5.0",
+    "bitcoinjs-lib": "^5.1.6",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
